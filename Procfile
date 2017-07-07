@@ -1,1 +1,1 @@
-web: gridapp peer_video.py --log-file -
+web: python peer_video.py --log-file -
