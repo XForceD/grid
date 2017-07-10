@@ -1,4 +1,4 @@
-from appgrid.urlgenerator import URLGenerator
+from akhet.urlgenerator import URLGenerator
 import pyramid.threadlocal as threadlocal
 from pyramid.exceptions import ConfigurationError
 

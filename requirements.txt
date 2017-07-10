@@ -23,3 +23,4 @@ whichcraft>=0.4.1
 zope.deprecation>=4.2.0
 zope.interface>=4.4.2
 pyramid_mako>=1.0.2
+akhet>=2.0
