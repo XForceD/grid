@@ -8,8 +8,8 @@ def main(global_config, **settings):
 
     # Configure Beaker sessions and caching.
     config.include("pyramid_beaker")
-	config.include('pyramid_mako')
-	config.add_mako_renderer('.html')
+    config.include('pyramid_mako')
+    config.add_mako_renderer('.html')
 
     # Templates ending in ".html" should be rendered with Mako.
     config.add_renderer(".html", "pyramid.mako_templating.renderer_factory")
