@@ -23,7 +23,7 @@ def main(global_config, **settings):
     config.scan(".views")
 
     # Add static route to overlay static directory onto URL "/".
-    config.include("appgrid.static")
+    config.include("akhet.static")
     config.add_static_route("appgrid", "static", cache_max_age=3600)
 
     return config.make_wsgi_app()
