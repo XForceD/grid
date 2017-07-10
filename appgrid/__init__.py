@@ -12,7 +12,7 @@ def main(global_config, **settings):
     config.add_mako_renderer('.html')
 
     # Templates ending in ".html" should be rendered with Mako.
-    config.add_renderer(".html", "pyramid.mako_templating.renderer_factory")
+    #config.add_renderer(".html", "pyramid.mako_templating.renderer_factory")
 
     # Configure subscribers: URL generator, renderer globals.
     config.include(".subscribers")
