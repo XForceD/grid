@@ -1,8 +1,8 @@
 {
-  "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "name": "GRID project(backend)",
+  "description": "THe backend part for GRID project",
   "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django" ],
+  "repository": "https://github.com/XForceD/grid",
+  "keywords": ["python", "pyramid" ],
   "addons": [ "heroku-postgresql" ]
 }
