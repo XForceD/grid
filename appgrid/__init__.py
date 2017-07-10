@@ -19,7 +19,7 @@ def main(global_config, **settings):
 
     # Add routes and views.
     config.add_route("home", "/")
-    config.include("appgrid.pony")
+    config.include("akhet.pony")
     config.scan(".views")
 
     # Add static route to overlay static directory onto URL "/".
