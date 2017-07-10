@@ -26,7 +26,7 @@ def add_renderer_globals(event):
     users.
     """
     renderer_globals = event
-    renderer_globals["h"] = helpers
+    #renderer_globals["h"] = helpers
     request = event.get("request") or threadlocal.get_current_request()
     if not request:
         return

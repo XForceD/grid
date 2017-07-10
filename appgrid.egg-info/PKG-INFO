@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: appgrid
+Version: 0.1
+Summary: Grid backend app for GRID project.
+Home-page: https://github.com/XForceD/grid
+Author: Force
+Author-email: xforsaged@gmail.com
+License: MIT
+Description: The backend app for GRID project.
+        
+        
+        0.1 (2017-07-10)
+        ----------------
+        
+        -  Initial version
+        
+Keywords: grid
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Pylons
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved : MIT License
