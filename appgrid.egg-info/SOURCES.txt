@@ -23,4 +23,6 @@ appgrid/static/images/pyramid-negative.png
 appgrid/static/stylesheets/default.css
 appgrid/static/stylesheets/reset.css
 appgrid/templates/index.html
+appgrid/templates/login.mako
+appgrid/templates/result.mako
 appgrid/templates/site.html
