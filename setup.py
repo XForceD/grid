@@ -11,6 +11,10 @@ requires = [
     "pyramid_beaker",
     "pyramid_debugtoolbar",
     "waitress",
+	'velruse',
+    'paste',
+    'redis',
+    'requests'
     ]
 
 entry_points = """\
@@ -42,6 +46,9 @@ setup(name="appgrid",
       install_requires=requires,
       tests_require=requires,
       test_suite="appgrid",
-      entry_points = entry_points,
+      entry_points="""\
+      [paste.app_factory]
+      main = appgrid:main
+      """,
       )
 
